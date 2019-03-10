@@ -233,7 +233,7 @@ spec:
           value: "false"
         - name: BASE_HREF
           value: /
-        image: argoproj/argoui:v2.2.1
+        image: mizzy/argoui:86efd1
         name: argo-ui
       serviceAccountName: argo-ui
 ---
